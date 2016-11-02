@@ -11,6 +11,8 @@ require( '../bower_components/qunit/qunit/qunit' );
 // CommonJS. The following tests check to see if the plugin
 // is on the jQuery namespace and nothing else.
 
+QUnit.start(); // starting qunit, or phantom js will have a problem
+
 QUnit.test( 'combobox should be defined on jQuery object', function ( assert ) {
 	assert.ok( $().combobox, 'combobox method is defined' );
 } );
