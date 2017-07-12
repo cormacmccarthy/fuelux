@@ -1,0 +1,7 @@
+<definitions>
+	<var key="SauceURL">http://fuelux:07cd4898-e1e9-43f1-9d11-1ee9741a8002@ondemand.saucelabs.com:80/wd/hub</var>
+	<var key="ApplitoolsKey">O98rWUv8tOcyZksGbfRIcYyGiUaGmKYADnjiWAPupdY0110</var>
+	<var key="viewKey">E3TXbUSHsfNo21KwNen7oa3irOZvtwWprMSqqpqJmow110</var>
+	<var key="ApplitoolsServer">https://pardoteyes.applitools.com/</var>
+	<var key="DownloadLocation">results/</var>
+</definitions>

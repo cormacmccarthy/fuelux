@@ -1,0 +1,9 @@
+<settings>
+	<url>var[SauceURL]</url>
+	<capabilities>
+		<browserName>firefox</browserName>
+		<platform>OS X 10.11</platform>
+		<version>49.0</version>
+		<screenResolution>1024x768</screenResolution>
+	</capabilities>
+</settings>

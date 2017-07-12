@@ -1,0 +1,7 @@
+<settings>
+	<apikey>var[ApplitoolsKey]</apikey>
+	<viewkey>var[viewKey]</viewkey>
+	<BaselineEnvName>CrossBrowser</BaselineEnvName>
+	<MatchLevel>Layout</MatchLevel>
+	<Server>var[ApplitoolsServer]</Server>
+</settings>

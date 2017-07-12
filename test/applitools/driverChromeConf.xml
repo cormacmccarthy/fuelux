@@ -1,0 +1,9 @@
+<settings>
+	<url>var[SauceURL]</url>
+	<capabilities>
+		<browserName>chrome</browserName>
+		<platform>Windows 10</platform>
+		<version>46.0</version>
+		<screenResolution>1024x768</screenResolution>
+	</capabilities>
+</settings>

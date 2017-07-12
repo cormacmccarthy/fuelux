@@ -1,0 +1,22 @@
+<job>
+	<load>definitions.xml</load>
+	<batch name="Fuel UX">
+		<test appname="Fuel UX" testname="Fuel UX 3 Controls">
+			<configuration>
+				<applitools>applitoolsConf.xml</applitools>
+				<driver>driverChromeConf.xml</driver>
+				<viewport width="1000" height="650"></viewport>
+				<download type="json report" name="chrome">var[DownloadLocation]</download>
+			</configuration>
+			<configuration>
+				<applitools>applitoolsConf.xml</applitools>
+				<driver>driverFirefoxConf.xml</driver>
+				<viewport width="1000" height="650"></viewport>
+				<download type="json report" name="firefox">var[DownloadLocation]</download>
+			</configuration>
+			<execute>
+				<action type="crawl" from="sitemap.xml file">sitemap.xml</action>
+			</execute>
+		</test>
+	</batch>
+</job>

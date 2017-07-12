@@ -16,6 +16,7 @@
     "release": "xvfb-maybe mocha test/mocha.js && grunt release",
     "test": "xvfb-maybe mocha test/mocha.js && grunt travisci --verbose",
     "regressionservers": "node test/regression/app.js",
+    "crossbrowser": "node test/applitools/applitools.js",
     "regression": "mocha test/mocha.js",
     "updatereferences": "grunt shell:copyToReference"
   },
